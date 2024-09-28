@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HappyBirthday" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#6200ED</item>
+         <item name="colorPrimaryDark">#3700B3</item>
+         <item name="android:statusBarColor">#3700B3</item>
+    </style>
+
+    <style name="Theme.HappyBirthday" parent="Base.Theme.HappyBirthday" />
+</resources>
