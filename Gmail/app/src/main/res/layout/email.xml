@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:layout_marginBottom="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/blue_background"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="26sp"
+        android:layout_height="26sp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/right_arrow"
+        app:layout_constraintBottom_toBottomOf="@+id/from"
+        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintTop_toTopOf="@id/icon" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Edurila.com"
+        android:textColor="#585952"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toStartOf="@+id/time"
+        app:layout_constraintStart_toEndOf="@id/arrow"
+        app:layout_constraintTop_toTopOf="@id/icon" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="$19 Only (First 10 spots) - Beselling..."
+        android:textColor="#949494"
+        android:textSize="20sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toStartOf="@id/note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/arrow"
+        app:layout_constraintTop_toBottomOf="@id/arrow" />
+
+    <TextView
+        android:id="@+id/time"
+        android:text="12:32 PM"
+        android:textSize="20sp"
+        android:textColor="#949494"
+        app:layout_constraintTop_toTopOf="@id/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/note"
+        android:background="@drawable/baseline_star_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="40sp"
+        android:layout_height="40sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
