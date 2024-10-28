@@ -5,4 +5,8 @@ Phát triển ứng dụng cho thiết bị di động
 
 **BTVN ngày 08/10/2024:** [Calculator App](https://github.com/Dxy1307/HUST_IT4785/tree/main/Calculator)
 
+**BTVN ngày 22/10/2024:** 
+- [Currency Converter App](https://github.com/Dxy1307/HUST_IT4785/tree/main/CurrencyConverter)
+- [Gmail App](https://github.com/Dxy1307/HUST_IT4785/tree/main/Gmail)
+
 # Dxy
