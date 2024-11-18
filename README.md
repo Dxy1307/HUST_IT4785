@@ -14,4 +14,7 @@ Phát triển ứng dụng cho thiết bị di động
 - [Simple List](https://github.com/Dxy1307/HUST_IT4785/tree/main/SimpleList)
 - [Find In List](https://github.com/Dxy1307/HUST_IT4785/tree/main/FindInList)
 
+**BTVN ngày 12/11/2024**
+- [Student Man](https://github.com/Dxy1307/HUST_IT4785/tree/main/StudentMan)
+
 # Dxy
