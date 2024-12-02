@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/addEditStudentFragment"
+        android:name="com.dxy.studentmanager_2.AddEditStudentFragment"
+        android:label="fragment_add_edit_student"
+        tools:layout="@layout/fragment_add_edit_student" />
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.dxy.studentmanager_2.StudentListFragment"
+        android:label="fragment_student_list"
+        tools:layout="@layout/fragment_student_list">
+        <action
+            android:id="@+id/action_studentListFragment_to_addEditStudentFragment"
+            app:destination="@id/addEditStudentFragment" />
+    </fragment>
+
+</navigation>
