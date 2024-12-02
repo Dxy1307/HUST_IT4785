@@ -20,4 +20,7 @@ Phát triển ứng dụng cho thiết bị di động
 **BTVN ngày 19/11/2024**
 - [Student Manager](https://github.com/Dxy1307/HUST_IT4785/tree/main/StudentManager)
 
+**BTVN ngày 26/11/2024**
+- [Student Manager 2](https://github.com/Dxy1307/HUST_IT4785/tree/main/StudentManager_2)
+
 # Dxy
