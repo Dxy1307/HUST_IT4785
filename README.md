@@ -26,4 +26,7 @@ Phát triển ứng dụng cho thiết bị di động
 **BTVN ngày 17/12/2024**
 -[Manage File](https://github.com/Dxy1307/HUST_IT4785/tree/main/ManageFile)
 
+**BTVN ngày 24/12/2024**
+-[Student Manager Room](https://github.com/Dxy1307/HUST_IT4785/tree/main/StudentManagerRoom)
+
 # Dxy
